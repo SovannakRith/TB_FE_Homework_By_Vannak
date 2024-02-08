@@ -25,7 +25,7 @@ p {
 }
 
 .container {
-  width: 1000px;
+  /* width: 1000px; */
   height: 1000px;
   margin-top: 48px;
   background-color: white;
@@ -46,17 +46,17 @@ p {
   border: none;
   border-radius: 5px;
 }
- 
-[type="text"], [type="email"], [type="tel"] {
-  width: 230px;
-  padding: 10px;
-  font-size: 14px;
-  margin: 8px;
-  margin-bottom: 10px;
-  display: block;
-  text-align: left;
-  border: none;
-  border-radius: 5px;
+
+.input-control input {
+    width: 230px;
+    padding: 10px;
+    font-size: 14px;
+    margin: 8px;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
 }
 
 [type="text"], [type="email"], [type="tel"], :focus {
